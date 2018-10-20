@@ -54,6 +54,7 @@ public class MonitoringFW extends JavaPlugin {
 		super.onDisable();
 
 		initConfig();
+
 		initCommandsAndListeners();
 		initVars();
 
