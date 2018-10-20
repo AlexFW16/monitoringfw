@@ -56,6 +56,7 @@ public class MonitoringFW extends JavaPlugin {
 		initConfig();
 		initCommandsAndListeners();
 		initVars();
+
 		initPlayers();
 
 		new MonitoringUtils(this);
