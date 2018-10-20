@@ -167,7 +167,8 @@ public class InventoryManagerMonitoring {
 		final Inventory mInv = Bukkit.createInventory(null, 5 * 9,
 				MonitoringFW.monitoredPlayer.get(klicker).getDisplayName());
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack borderItem = new ItemManagerMonitoring(Material.LEAVES_2).setDisplayName(" ").build();
 
@@ -204,11 +205,11 @@ public class InventoryManagerMonitoring {
 		final ItemStack setHealth = new ItemManagerMonitoring(Material.POTION).setDisplayName("§6Leben ändern!")
 				.setLore("§2Ändert die Leben", "§2des Spielers").build();
 
-		final ItemStack heal = new ItemManagerMonitoring(Material.CAKE).setDisplayName("§6Heilen").setLore("§2Heilt den Spieler")
-				.build();
+		final ItemStack heal = new ItemManagerMonitoring(Material.CAKE).setDisplayName("§6Heilen")
+				.setLore("§2Heilt den Spieler").build();
 
-		final ItemStack enchanting = new ItemManagerMonitoring(Material.ENCHANTMENT_TABLE).setDisplayName("§9Verzaubern")
-				.setLore("§2Verzaubere ein item", "§2des Spielers").build();
+		final ItemStack enchanting = new ItemManagerMonitoring(Material.ENCHANTMENT_TABLE)
+				.setDisplayName("§9Verzaubern").setLore("§2Verzaubere ein item", "§2des Spielers").build();
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -245,22 +246,29 @@ public class InventoryManagerMonitoring {
 
 		final ItemStack it1 = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
-		final ItemStack it2 = new ItemManagerMonitoring(Material.BARRIER).setDisplayName("§20").setLore("§9Freeze stoppen!")
+		final ItemStack it2 = new ItemManagerMonitoring(Material.BARRIER).setDisplayName("§20")
+				.setLore("§9Freeze stoppen!").build();
+
+		final ItemStack it3 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§d5").setLore("§95 Sekunden!")
 				.build();
 
-		final ItemStack it3 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§d5").setLore("§95 Sekunden!").build();
+		final ItemStack it4 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§d10").setLore("§910 Sekunden!")
+				.build();
 
-		final ItemStack it4 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§d10").setLore("§910 Sekunden!").build();
+		final ItemStack it5 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§530").setLore("§930 Sekunden!")
+				.build();
 
-		final ItemStack it5 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§530").setLore("§930 Sekunden!").build();
+		final ItemStack it6 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§560").setLore("§91 Minute! ")
+				.build();
 
-		final ItemStack it6 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§560").setLore("§91 Minute! ").build();
+		final ItemStack it7 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§5120").setLore("§92 Minuten!")
+				.build();
 
-		final ItemStack it7 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§5120").setLore("§92 Minuten!").build();
+		final ItemStack it8 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§4300").setLore("§95 Minuten!")
+				.build();
 
-		final ItemStack it8 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§4300").setLore("§95 Minuten!").build();
-
-		final ItemStack it9 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§4600").setLore("§910 Minuten!").build();
+		final ItemStack it9 = new ItemManagerMonitoring(Material.WATCH).setDisplayName("§4600").setLore("§910 Minuten!")
+				.build();
 
 		final ItemStack[] contents = { it1, it2, it3, it4, it5, it6, it7, it8, it9 };
 
@@ -284,7 +292,8 @@ public class InventoryManagerMonitoring {
 				.setLore("§5Teleportiert §2" + MonitoringFW.monitoredPlayer.get(klicker).getDisplayName(), "§5zu dir!")
 				.build();
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
@@ -317,7 +326,8 @@ public class InventoryManagerMonitoring {
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		// =====================================================================================================
 
@@ -352,7 +362,8 @@ public class InventoryManagerMonitoring {
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack gm0 = new ItemManagerMonitoring(Material.PORK).setDisplayName("§6Survival")
 				.setLore("§2Setzt den Spieler", "§2in den Überlebens-Modus").build();
@@ -413,7 +424,8 @@ public class InventoryManagerMonitoring {
 
 		final Inventory invL = Bukkit.createInventory(null, 9, "§2Level");
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
@@ -428,8 +440,8 @@ public class InventoryManagerMonitoring {
 		final ItemStack r10 = new ItemManagerMonitoring(Material.GLASS_BOTTLE, 10).setDisplayName("§aRemove 10 Level")
 				.setLore("§2Nimmt dem Spieler", "§210 Level weg").build();
 
-		final ItemStack rAll = new ItemManagerMonitoring(Material.BARRIER).setDisplayName("§aRemove all Level").setAmount(1)
-				.setLore("§2Nimmt dem Spieler", "§2alle §cLevel§2 weg").build();
+		final ItemStack rAll = new ItemManagerMonitoring(Material.BARRIER).setDisplayName("§aRemove all Level")
+				.setAmount(1).setLore("§2Nimmt dem Spieler", "§2alle §cLevel§2 weg").build();
 
 		// =======================================================================================================
 
@@ -451,7 +463,8 @@ public class InventoryManagerMonitoring {
 
 	private void createHealthInv() {
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
@@ -512,7 +525,8 @@ public class InventoryManagerMonitoring {
 
 		final Inventory iInv = Bukkit.createInventory(null, 9, "§6Inventar");
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
@@ -546,7 +560,8 @@ public class InventoryManagerMonitoring {
 
 		final Inventory ecInv = Bukkit.createInventory(null, 9, "§dEnderkiste");
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
@@ -556,8 +571,8 @@ public class InventoryManagerMonitoring {
 		final ItemStack copy = new ItemManagerMonitoring(Material.FEATHER).setDisplayName("§dEnderkiste §6kopieren")
 				.setLore("§2Kopiert die §dEnderkiste", "§2des Spielers in dein Inventar").build();
 
-		final ItemStack openInv = new ItemManagerMonitoring(Material.ENDER_CHEST).setDisplayName("§dEnderkiste§6 öffnen")
-				.setLore("§2Öffnet die §dEnderkiste", "§2des Spielers").build();
+		final ItemStack openInv = new ItemManagerMonitoring(Material.ENDER_CHEST)
+				.setDisplayName("§dEnderkiste§6 öffnen").setLore("§2Öffnet die §dEnderkiste", "§2des Spielers").build();
 
 		final ItemStack switchInv = new ItemManagerMonitoring(Material.SHEARS).setDisplayName("§dEnderkiste§6 tauschen")
 				.setLore("§2Tauscht deine §dEnderkiste", "§2mit der §dEnderkiste §2Spielers").build();
@@ -580,7 +595,8 @@ public class InventoryManagerMonitoring {
 
 		final ItemStack air = new ItemStack(Material.AIR);
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
@@ -671,90 +687,100 @@ public class InventoryManagerMonitoring {
 
 		final Inventory enchantmentsInv = Bukkit.createInventory(null, 9 * 5, "§9Verzauberungen");
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
-		final ItemStack aquaAffinity = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dWasseraffinität")
-				.build();
+		final ItemStack aquaAffinity = new ItemManagerMonitoring(Material.ENCHANTED_BOOK)
+				.setDisplayName("§dWasseraffinität").build();
 
 		final ItemStack baneOfA = new ItemManagerMonitoring(Material.ENCHANTED_BOOK)
 				.setDisplayName("§dVerderben der Gliederfüßer").build();
 
-		final ItemStack blastP = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dExplosionsschutz").build();
+		final ItemStack blastP = new ItemManagerMonitoring(Material.TNT).setDisplayName("§dExplosionsschutz").build();
 
 		// final ItemStack channeling = new
 		// ItemManager(Material.ENCHANTED_BOOK).setDisplayName("§dWasseraffinität")
 		// .build();
 
-		final ItemStack curseOfB = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dFluch der Bindung")
+		final ItemStack curseOfB = new ItemManagerMonitoring(Material.ENCHANTED_BOOK)
+				.setDisplayName("§dFluch der Bindung").build();
+
+		final ItemStack curseOfV = new ItemManagerMonitoring(Material.ENCHANTED_BOOK)
+				.setDisplayName("§dFluch des Verschwindens").build();
+
+		final ItemStack depthStrider = new ItemManagerMonitoring(Material.WATER).setDisplayName("§dWasserläufer")
 				.build();
 
-		final ItemStack curseOfV = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dFluch des Verschwindens")
+		final ItemStack efficiency = new ItemManagerMonitoring(Material.GOLD_PICKAXE).setDisplayName("§dEffizienz")
 				.build();
 
-		final ItemStack depthStrider = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dWasserläufer")
+		final ItemStack featherFalling = new ItemManagerMonitoring(Material.FEATHER).setDisplayName("§dFederfall")
 				.build();
 
-		final ItemStack efficiency = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dEffizienz").build();
+		final ItemStack fireAspect = new ItemManagerMonitoring(Material.FIRE).setDisplayName("§dVerbrennung").build();
 
-		final ItemStack featherFalling = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dFederfall").build();
+		final ItemStack fireP = new ItemManagerMonitoring(Material.BLAZE_ROD).setDisplayName("§dFeuerschutz").build();
 
-		final ItemStack fireAspect = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dVerbrennung").build();
+		final ItemStack flame = new ItemManagerMonitoring(Material.FIREBALL).setDisplayName("§dFlamme").build();
 
-		final ItemStack fireP = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dFeuerschutz").build();
+		final ItemStack fortune = new ItemManagerMonitoring(Material.GRASS).setDisplayName("§dGlück").build();
 
-		final ItemStack flame = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dFlamme").build();
-
-		final ItemStack fortune = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dGlück").build();
-
-		final ItemStack frostWalker = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dEisläufer").build();
+		final ItemStack frostWalker = new ItemManagerMonitoring(Material.ICE).setDisplayName("§dEisläufer").build();
 
 		// final ItemStack impaling = new
 		// ItemManager(Material.ENCHANTED_BOOK).setDisplayName("§dWasseraffinität")
 		// .build();
 
-		final ItemStack infinity = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dUnendlichkeit").build();
-
-		final ItemStack knockback = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dRückstoß").build();
-
-		final ItemStack looting = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dPlünderung").build();
-
-		// final ItemStack loyalty = new
-		// ItemManager(Material.ENCHANTED_BOOK).setDisplayName("§dWasseraffinität").build();
-
-		final ItemStack luckOfSea = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dGlück des Meeres")
+		final ItemStack infinity = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dUnendlichkeit")
 				.build();
 
-		final ItemStack lure = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dKöder").build();
+		final ItemStack knockback = new ItemManagerMonitoring(Material.STICK).setDisplayName("§dRückstoß").build();
 
-		final ItemStack mending = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dReparatur").build();
+		final ItemStack looting = new ItemManagerMonitoring(Material.PORK).setDisplayName("§dPlünderung").build();
 
-		final ItemStack power = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dStärke").build();
+		// final ItemStack loyalty = new
+		// ItemManager(Material.ENCHANTED_BOOK).setDisplayName("§dLoyalität").build();
 
-		final ItemStack projectileP = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dSchusssicher").build();
+		final ItemStack luckOfSea = new ItemManagerMonitoring(Material.FISHING_ROD).setDisplayName("§dGlück des Meeres")
+				.build();
 
-		final ItemStack protection = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dSchutz").build();
+		final ItemStack lure = new ItemManagerMonitoring(Material.FISHING_ROD).setDisplayName("§dKöder").build();
 
-		final ItemStack punch = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dSchlag").build();
+		final ItemStack mending = new ItemManagerMonitoring(Material.WOOD_PICKAXE).setDisplayName("§dReparatur")
+				.build();
 
-		final ItemStack respiration = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dAtmung").build();
+		final ItemStack power = new ItemManagerMonitoring(Material.DIAMOND_SWORD).setDisplayName("§dStärke").build();
+
+		final ItemStack projectileP = new ItemManagerMonitoring(Material.ARROW).setDisplayName("§dSchusssicher")
+				.build();
+
+		final ItemStack protection = new ItemManagerMonitoring(Material.DIAMOND_CHESTPLATE).setDisplayName("§dSchutz")
+				.build();
+
+		final ItemStack punch = new ItemManagerMonitoring(Material.STONE_AXE).setDisplayName("§dSchlag").build();
+
+		final ItemStack respiration = new ItemManagerMonitoring(Material.WATER_BUCKET).setDisplayName("§dAtmung")
+				.build();
 
 		// final ItemStack riptide = new
 		// ItemManager(Material.ENCHANTED_BOOK).setDisplayName("§dWasseraffinität").build();
 
-		final ItemStack sharpness = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dSchärfe").build();
+		final ItemStack sharpness = new ItemManagerMonitoring(Material.IRON_SWORD).setDisplayName("§dSchärfe").build();
 
-		final ItemStack silk_touch = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dBehutsamkeit").build();
+		final ItemStack silk_touch = new ItemManagerMonitoring(Material.WOOD_PICKAXE).setDisplayName("§dBehutsamkeit")
+				.build();
 
 		final ItemStack smite = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dBann").build();
 
-		final ItemStack sweepingEdge = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dSchwungkraft")
+		final ItemStack sweepingEdge = new ItemManagerMonitoring(Material.DIAMOND_SWORD)
+				.setDisplayName("§dSchwungkraft").build();
+
+		final ItemStack thorns = new ItemManagerMonitoring(Material.IRON_CHESTPLATE).setDisplayName("§dDornen").build();
+
+		final ItemStack unbreaking = new ItemManagerMonitoring(Material.IRON_SPADE).setDisplayName("§dHaltbarkeit")
 				.build();
-
-		final ItemStack thorns = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dDornen").build();
-
-		final ItemStack unbreaking = new ItemManagerMonitoring(Material.ENCHANTED_BOOK).setDisplayName("§dHaltbarkeit").build();
 
 		final ItemStack[] contents = {
 
@@ -775,7 +801,8 @@ public class InventoryManagerMonitoring {
 
 		final Inventory l1Inv = Bukkit.createInventory(null, 9, "§6Level auswählen");
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
@@ -796,12 +823,14 @@ public class InventoryManagerMonitoring {
 
 		final Inventory l2Inv = Bukkit.createInventory(null, 9, "§6Level auswählen");
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
 		final ItemStack lvl1 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 1").build();
-		final ItemStack lvl2 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 2").setAmount(2).build();
+		final ItemStack lvl2 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 2").setAmount(2)
+				.build();
 
 		final ItemStack[] contents = {
 
@@ -818,13 +847,16 @@ public class InventoryManagerMonitoring {
 
 		final Inventory l3Inv = Bukkit.createInventory(null, 9, "§6Level auswählen");
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
 		final ItemStack lvl1 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 1").build();
-		final ItemStack lvl2 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 2").setAmount(2).build();
-		final ItemStack lvl3 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 3").setAmount(3).build();
+		final ItemStack lvl2 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 2").setAmount(2)
+				.build();
+		final ItemStack lvl3 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 3").setAmount(3)
+				.build();
 
 		final ItemStack[] contents = {
 
@@ -841,14 +873,18 @@ public class InventoryManagerMonitoring {
 
 		final Inventory l4Inv = Bukkit.createInventory(null, 9, "§6Level auswählen");
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
 		final ItemStack lvl1 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 1").build();
-		final ItemStack lvl2 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 2").setAmount(2).build();
-		final ItemStack lvl3 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 3").setAmount(3).build();
-		final ItemStack lvl4 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 4").setAmount(4).build();
+		final ItemStack lvl2 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 2").setAmount(2)
+				.build();
+		final ItemStack lvl3 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 3").setAmount(3)
+				.build();
+		final ItemStack lvl4 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 4").setAmount(4)
+				.build();
 
 		final ItemStack[] contents = {
 
@@ -865,15 +901,20 @@ public class InventoryManagerMonitoring {
 
 		final Inventory l5Inv = Bukkit.createInventory(null, 9, "§6Level auswählen");
 
-		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ").build();
+		final ItemStack defaultItem = new ItemManagerMonitoring(Material.STAINED_GLASS_PANE).setDisplayName(" ")
+				.build();
 
 		final ItemStack back = new ItemManagerMonitoring(Material.SNOW_BALL).setDisplayName("§3Zurück").build();
 
 		final ItemStack lvl1 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 1").build();
-		final ItemStack lvl2 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 2").setAmount(2).build();
-		final ItemStack lvl3 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 3").setAmount(3).build();
-		final ItemStack lvl4 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 4").setAmount(4).build();
-		final ItemStack lvl5 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 5").setAmount(5).build();
+		final ItemStack lvl2 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 2").setAmount(2)
+				.build();
+		final ItemStack lvl3 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 3").setAmount(3)
+				.build();
+		final ItemStack lvl4 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 4").setAmount(4)
+				.build();
+		final ItemStack lvl5 = new ItemManagerMonitoring(Material.GOLD_NUGGET).setDisplayName("§6Level 5").setAmount(5)
+				.build();
 
 		final ItemStack[] contents = {
 
