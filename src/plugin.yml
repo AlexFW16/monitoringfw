@@ -1,0 +1,10 @@
+name: MonitoringFW
+version: 1.0 
+author: AlexFW
+main: at.AlexFW.MonitoringFW.MonitoringFW
+commands:
+     monitor:
+          description: Opens the MonitoringFW inventory. Use     /monitor "#reload"  or           /monitor "#rl"         to reload the config.
+          usage: /monitor <Player>
+     monitorrl:
+          description: Reloads the config.yml
